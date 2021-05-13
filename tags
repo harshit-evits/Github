@@ -1,0 +1,24 @@
+<script>
+    
+    $(document).on('click','.tags_1',function() {
+     
+var checked= $(this).parent().find('input[type="checkbox"]').prop('checked');
+      
+      if(checked==true)
+      {
+      $(this).parent().find('input[type="checkbox"]').prop('checked',false);
+        
+      }
+      
+      else
+      {
+
+              $(this).parent().find('input[type="checkbox"]').prop('checked',true);
+
+      }
+      
+      
+    });
+    
+    
+  </script>
